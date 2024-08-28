@@ -1,0 +1,29 @@
+.box{
+    background-color: rgb(222, 121, 121);
+}
+.box1{
+    padding: 10px;
+    color: blueviolet;
+    margin: 35px;
+    border: 2px solid blue;
+    height: 200px;
+    box-sizing: border-box;  
+    /* box-sizzing border lagana hai meins content height + padding + border include hogi
+    200px margin ni hogi is mein add
+    agai bix-sizing border ni lagaya to only content ki height 200px hogi 
+    usmein padding, border and margin inclde ni hogi */
+
+}
+.box2{
+    padding: 10px;
+    color: rgb(11, 75, 25);
+    margin: 30px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
