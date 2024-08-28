@@ -1,3 +1,8 @@
+@font-face {
+    font-family: buttermik;
+    src: url(./Buttermilk.woff2);
+}
+
 .box{
     background-color: rgb(222, 121, 121);
 }
@@ -8,6 +13,7 @@
     border: 2px solid blue;
     height: 200px;
     box-sizing: border-box;  
+    background-image: url(./img.webp);
     /* box-sizzing border lagana hai meins content height + padding + border include hogi
     200px margin ni hogi is mein add
     agai bix-sizing border ni lagaya to only content ki height 200px hogi 
@@ -21,6 +27,7 @@
     border: 2px solid black;
     height: 200px;
     box-sizing: border-box;
+    font-family: buttermik;
 
 }
 *{
